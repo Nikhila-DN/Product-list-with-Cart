@@ -1,0 +1,33 @@
+.productListContainer {
+  flex: 3;
+}
+
+.heading {
+  margin-bottom: 8px;
+}
+
+.productsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+  .productListContainer {
+    flex: none;
+  }
+
+  .productsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .productsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}

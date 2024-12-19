@@ -1,0 +1,45 @@
+.cartItemContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--rose-100);
+  margin-top: 20px 0;
+}
+
+.priceContainer {
+  display: flex;
+  gap: 10px;
+  font-size: small;
+  margin-top: 5px;
+}
+
+.itemName {
+  font-weight: 500;
+  font-size: medium;
+  color: var(--rose-900);
+}
+
+.quantity {
+  font-weight: 500;
+  color: var(--red);
+}
+
+.price {
+  font-weight: 400;
+  color: var(--rose-500);
+}
+
+.totalPrice {
+  font-weight: 500;
+  color: var(--rose-900);
+}
+
+.removeIcon {
+  cursor: pointer;
+  color: var(--rose-300);
+}
+
+.removeIcon:hover {
+  color: var(--rose-900);
+}
