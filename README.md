@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/Nikhila-DN/Product-list-with-Cart.git
-- Live Site URL: https://glittery-bonbon-a247ef.netlify.app/
+- Live Site URL: https://product-list-with-cart-dn.netlify.app/
 
 ## My process
 
